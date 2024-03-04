@@ -61,7 +61,7 @@
    */
 
 
-   @import url(https://db.onlinewebfonts.com/c/a38b858d01bf577b0ea0758e29388f93?family=ABC+Normal+Semibold);
+@import url(https://db.onlinewebfonts.com/c/a38b858d01bf577b0ea0758e29388f93?family=ABC+Normal+Semibold);
 
 @font-face {
     font-family: "ABC Normal Semibold";
@@ -73,16 +73,6 @@
     url("https://db.onlinewebfonts.com/t/a38b858d01bf577b0ea0758e29388f93.svg#ABC Normal Semibold")format("svg");
 }
 
-@font-face {
-    font-family: "Juana Regular";
-    src: url("https://db.onlinewebfonts.com/t/5ce9655f6b33e1aaa1c62de0397a79dc.eot");
-    src: url("https://db.onlinewebfonts.com/t/5ce9655f6b33e1aaa1c62de0397a79dc.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/5ce9655f6b33e1aaa1c62de0397a79dc.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/5ce9655f6b33e1aaa1c62de0397a79dc.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/5ce9655f6b33e1aaa1c62de0397a79dc.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/5ce9655f6b33e1aaa1c62de0397a79dc.svg#Juana Regular")format("svg");
-}
-
 
 @font-face {
     font-family: "ABC Normal Book";
@@ -92,6 +82,17 @@
     url("https://db.onlinewebfonts.com/t/bad5d85dec62adc89f2f88300b74dd63.woff")format("woff"),
     url("https://db.onlinewebfonts.com/t/bad5d85dec62adc89f2f88300b74dd63.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/bad5d85dec62adc89f2f88300b74dd63.svg#ABC Normal Book")format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/02ce6845d62b667c5c60bdaacdc77aa6?family=FSP+DEMO+-+Juana+Light);
+@font-face {
+  font-family: "FSP DEMO - Juana Light";
+  src: url("https://db.onlinewebfonts.com/t/02ce6845d62b667c5c60bdaacdc77aa6.eot");
+  src: url("https://db.onlinewebfonts.com/t/02ce6845d62b667c5c60bdaacdc77aa6.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/02ce6845d62b667c5c60bdaacdc77aa6.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/02ce6845d62b667c5c60bdaacdc77aa6.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/02ce6845d62b667c5c60bdaacdc77aa6.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/02ce6845d62b667c5c60bdaacdc77aa6.svg#FSP DEMO - Juana Light")format("svg");
 }
 
   .nav-font {
@@ -131,20 +132,20 @@
 
   .font-h1 {
     font-size: 64px;
-    font-family: "Juana Regular";
-    font-weight: 400;
+    font-family: "FSP DEMO - Juana Light";
+    font-weight: 300;
     line-height: 78px;
   }
 
   .font-h2 {
     font-size: 34px;
-    font-family: "Juana Regular";
+    font-family: "FSP DEMO - Juana Light";
     font-weight: 400;
     line-height: 43px;
   }
 
   .head-font {
-    font-family: "Juana Regular";
+    font-family: "FSP DEMO - Juana Light";
   }
 
   .body-font {
@@ -152,13 +153,16 @@
   }
   
   .height-body {
-    height: 80vh;
+    height: 100vh;
   }
-
+  .body-font-juana {
+    font-family: "FSP DEMO - Juana Light";
+  }
   .footer-font {
     font-size: 14px;
     font-family: "ABC Normal Book";
     font-weight: 200;
+    
   }
   .global-container {
     max-width: 1000px;
@@ -177,19 +181,30 @@
     color: #EEB75D;
 }
 
-.footer-font {
-    opacity: .8;
+.footer-font-link {
+  opacity: .8;
 }
-.footer-font:hover {
+.footer-font-link:hover {
     opacity: 1;
 }
 
 .lp-link {
-  color: rgba(255,255,255,0.8);
+  color:  #EEB75D;
   font-weight: 500;
   text-decoration: none;
 }
 .lp-link:hover {
+  color: rgba(255,255,255,0.8);
+
+}
+
+.lp-link-footer {
+  color:  rgba(255,255,255,0.8);
+  font-weight: 500;
+  text-decoration: none;
+}
+.lp-link-footer:hover {
   color: #fff;
 
 }
+
